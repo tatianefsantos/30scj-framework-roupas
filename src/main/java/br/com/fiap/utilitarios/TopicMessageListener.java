@@ -11,7 +11,6 @@ public class TopicMessageListener implements MessageListener
 
 	private String selector;
 
-	@Override
 	public void onMessage( Message message ) 
 	{
 		if ( ( message instanceof TextMessage ) ) 
